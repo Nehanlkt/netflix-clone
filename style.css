@@ -64,7 +64,7 @@ nav button {
     /* font-weight: bold; */
     font-family: 'Martel Sans', sans-serif;
     gap: 23px;
-    padding:0 30px;
+    padding: 0 30px;
 
     position: relative;
 }
@@ -86,184 +86,216 @@ nav button {
     font-size: 20px;
     text-align: center;
 }
-.separation{
+
+.separation {
     background-color: gray;
     height: 7px;
 
 }
 
-.btn{
+.btn {
     padding: 3px 8px;
     font-weight: bold;
     background-color: white;
     cursor: pointer;
 }
-.btn-red-sm{
+
+.btn-red-sm {
     background-color: red;
     color: white;
     border-radius: 3px;
 
 }
-.btn-red{
+
+.btn-red {
     background-color: red;
     color: white;
     padding: 3px 24px;
     border-radius: 4px;
 
 }
-.main input{
+
+.main input {
     padding: 7px 101px 8px 14px;
     font-weight: 900;
     font-size: 12px;
     color: white;
     padding: 3px 24px;
     border-radius: 4px;
-    background-color: rgba(23,23, 23,0.7);
+    background-color: rgba(23, 23, 23, 0.7);
 
 }
-.hero-buttons{
+
+.hero-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
 
 }
-.first{
+
+.first {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 70vw;
     margin: auto;
-    color:white;
+    color: white;
     /* flex-wrap: wrap; */
 
 }
-@media  screen and (max-width:1300px) {
-     body{
+
+@media screen and (max-width:1300px) {
+    body {
         background-color: red;
-     } 
-    .first{
+    }
+
+    .first {
         flex-wrap: wrap;
     }
 
 
-    
-}
-.secImg{
-    position:relative;
 
 }
-.secImg img{
+
+.secImg {
+    position: relative;
+
+}
+
+.secImg img {
     width: 30vw;
     position: relative;
     z-index: 10;
 }
-.secImg video{
+
+.secImg video {
     position: absolute;
     top: 51px;
-    right:0 ;
+    right: 0;
 }
+
 section.first>div {
     display: flex;
     flex-direction: column;
     padding: 34px 0;
 }
-.first>div:nth-child(1){
+
+.first>div:nth-child(1) {
     display: flex;
     flex-direction: column;
     font-size: 24px;
     font-weight: bold;
 }
-.first>div:nth-child(2){
+
+.first>div:nth-child(2) {
     display: flex;
     font-size: 20px;
     font-weight: bold;
 }
-.second{
+
+/* .second {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 70vw;
     margin: auto;
-    color:white;
+    color: white;
     flex-wrap: wrap;
 
-}
-.im img{
+} */
+
+/* .im img {
     width: 30vw;
     position: relative;
     z-index: 10;
-}
-.second>div:nth-child(1){
-     display: flex; 
-    flex-direction: column;
+} */
+
+/* .second>div:nth-child(2) {
+    display: flex;
+    flex-direction:column;
     font-size: 24px;
     font-weight: bold;
-}
-.second>div:nth-child(2){
-    display: flex; 
+    
+} */
+
+/* .second>div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
     font-weight: bold;
-}
-.third{
+} */
+
+
+.third {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 70vw;
     margin: auto;
-    color:white;
+    color: white;
 
 }
-.secImg{
-    position:relative;
+
+.secImg {
+    position: relative;
 
 }
-.secImg img{
+
+.secImg img {
     width: 555px;
     position: relative;
     z-index: 10;
 }
-.secImg video{
+
+.secImg video {
     position: absolute;
     top: 51px;
-    right:0 ;
-     width: 555px;
+    right: 0;
+    width: 555px;
 
 }
+
 section.first>div {
     display: flex;
     flex-direction: column;
     padding: 34px 0;
 }
-.third>div:nth-child(1){
+
+.third>div:nth-child(1) {
     display: flex;
     flex-direction: column;
     font-size: 24px;
     font-weight: bold;
 }
-.third>div:nth-child(2){
+
+.third>div:nth-child(2) {
     display: flex;
     font-size: 20px;
     font-weight: bold;
-} 
-.faqbox{
+}
+
+.faqbox {
     transition: all 1s ease-out;
     justify-content: space-between;
     display: flex;
     background-color: grey;
     padding: 24px;
-    margin:34px auto;
+    margin: 34px auto;
     cursor: pointer;
 
 }
-.faqbox:hover{
-    
-    background-color: rgb(37,36,36);
+
+.faqbox:hover {
+
+    background-color: rgb(37, 36, 36);
 
 }
-.faqbox svg{
+
+.faqbox svg {
     filter: invert(1);
 }
+
 footer {
     color: white;
     max-width: 60vw;
@@ -284,7 +316,7 @@ footer .questions {
 
 @media screen and (max-width: 1300px) {
 
-    nav{
+    nav {
         max-width: 90vw;
     }
 
@@ -330,12 +362,13 @@ footer .questions {
         padding: 75px 0;
     }
 
-    .footer-item{
+    .footer-item {
         align-items: center;
     }
- 
+
 
 }
+
 @media screen and (max-width: 1300px) {
 
     .footer {
@@ -356,5 +389,3 @@ footer .questions {
     flex-direction: column;
     gap: 23px;
 }
-
-
